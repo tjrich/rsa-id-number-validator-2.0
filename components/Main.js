@@ -25,7 +25,7 @@ function Main() {
                         text-gray-600 placeholder-gray-400" 
                         type="text" placeholder="Please enter a RSA ID number"
                     />
-                    <FingerPrintIcon className="h-8 pr-2 py-1 cursor-pointer"/>
+                    <FingerPrintIcon className="h-8 pr-5 py-1 cursor-pointer"/>
                 </div>
             </div>
             
