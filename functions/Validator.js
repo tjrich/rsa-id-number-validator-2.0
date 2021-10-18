@@ -73,7 +73,7 @@ const Validator = (idNumber) => {
     }
     else console.log("This is not a valid RSA ID number")
 
-    return valid
+    // return valid
 }
 
 // Validator(9707255390081)
