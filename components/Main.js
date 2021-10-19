@@ -51,7 +51,7 @@ function Main() {
             
             {/* Check ID button */}
             <div className="absolute">
-                <button className="flex text-white bg-green-600 px-5
+                <button className="flex text-white bg-green-500 px-5
                                     py-3 rounded-full shadow-md
                                     font-bold my-3 hover:shadow-xl
                                     active:scale-90 transition duration-150">
