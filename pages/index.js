@@ -12,10 +12,10 @@ export default function Home() {
       </Head>
 
       {/* Header */}
-      <Header />
+      <Header/>
 
       {/* Main */}
-      <Main />
+      <Main/>
 
     </div>
   )
