@@ -31,22 +31,22 @@ function Main() {
                     <input
                         value={idNumber}
                         onChange={(e) => setidNumber(e.target.value)}
-                        className="min-w-[400px] sm:min-w-[500px] md:min-w-[600px]
+                        className="min-w-[400px] 
                                 pl-5 bg-transparent outline-none
                                 text-gray-600 placeholder-gray-400
-                                sm:text-lg" 
+                                sm:text-lg sm:min-w-[500px] md:min-w-[600px]" 
 
                         type="text" placeholder="Please enter a RSA ID number"
                     />
                     <FingerPrintIcon className="h-8 pl-2 pr-3 py-1 cursor-pointer
-                                                animate-pulse sm:visible"
+                                                animate-pulse"
                     />
                 </div>
             </div>
 
             {/* Check ID button */}
             <div className="mx-auto">
-                <button className="text-white bg-green-500 px-5
+                <button className="text-white bg-green-400 px-5
                                     py-3 rounded-full shadow-md
                                     font-bold my-3 hover:shadow-xl
                                     active:scale-90 transition duration-150"
