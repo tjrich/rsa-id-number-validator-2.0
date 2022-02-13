@@ -1,4 +1,4 @@
-// var idNumber = 9707255390081 //prompt("Please enter a South African ID number: ")
+// var idNumber = id_number //prompt("Please enter a South African ID number: ")
 // var idNumberStr = idNumber.toString();
 
 const Validator = (idNumber) => {
